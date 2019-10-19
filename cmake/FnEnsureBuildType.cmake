@@ -21,11 +21,6 @@
 # limitations under the License.
 # cmake-format: on
 
-if(__ensure_build_type_defined)
-  return()
-endif()
-set(__ensure_build_type_defined ON)
-
 function(ensure_build_type _fallback_build_type)
   if(NOT DEFINED __FALLBACK_BUILD_TYPE_SET)
     set(__FALLBACK_BUILD_TYPE_SET OFF CACHE INTERNAL "")

@@ -30,11 +30,6 @@
 # limitations under the License.
 # cmake-format: on
 
-if(__get_target_sources_defined)
-  return()
-endif()
-set(__get_target_sources_defined ON)
-
 function(get_target_sources _outvar _target)
     # Returns all the source files
     # (including headers) associated to the given
