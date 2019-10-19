@@ -1,6 +1,9 @@
 # Add vendored google benchmark
 # Provides the following targets:
 #  - benchmark
+#
+# This file is part of:
+# https://github.com/nazavode/cmake-depot.git
 
 find_package(benchmark QUIET)
 

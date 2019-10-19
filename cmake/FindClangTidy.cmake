@@ -19,6 +19,9 @@
 #      message("clang-format executable found: ${CLANG_TIDY_EXECUTABLE}\n"
 #              "version: ${CLANG_TIDY_VERSION}")
 #    endif()
+#
+# This file is part of:
+# https://github.com/nazavode/cmake-depot.git
 # cmake-format: on
 
 find_program(CLANG_TIDY_EXECUTABLE

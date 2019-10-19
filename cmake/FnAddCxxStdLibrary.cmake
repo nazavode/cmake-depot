@@ -2,6 +2,9 @@
 #
 # add_cxxstd_library(<target> <stdlevel>)
 #
+# This file is part of:
+# https://github.com/nazavode/cmake-depot.git
+#
 # Copyright 2018 Federico Ficarelli
 #
 # Licensed under the Apache License, Version 2.0 (the "License");

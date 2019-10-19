@@ -2,6 +2,9 @@
 # Provides the following targets:
 #  - gtest
 #  - gtest_main
+#
+# This file is part of:
+# https://github.com/nazavode/cmake-depot.git
 
 find_package(GTest QUIET)
 
