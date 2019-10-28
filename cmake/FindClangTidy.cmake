@@ -19,18 +19,21 @@
 #      message("clang-format executable found: ${CLANG_TIDY_EXECUTABLE}\n"
 #              "version: ${CLANG_TIDY_VERSION}")
 #    endif()
-#
-# This file is part of:
-# https://github.com/nazavode/cmake-depot.git
 # cmake-format: on
 
 find_program(CLANG_TIDY_EXECUTABLE
              NAMES clang-tidy
+                   clang-tidy-9
                    clang-tidy-9.0
+                   clang-tidy-8
                    clang-tidy-8.0
+                   clang-tidy-7
                    clang-tidy-7.0
+                   clang-tidy-6
                    clang-tidy-6.0
+                   clang-tidy-5
                    clang-tidy-5.0
+                   clang-tidy-4
                    clang-tidy-4.0
                    clang-tidy-3.9
                    clang-tidy-3.8
